@@ -1,0 +1,44 @@
+Credits for help: @zilgo on stackoverflow, Edhesive, Pixels (Images)
+
+Edhesive code snippets: UTEACH CSP, Brian Ford, Image Filter Project Starter Code
+Code used:
+images = ['filter1.jpg']
+for i in images:
+  if os.path.exists(i):
+    os.remove(i)
+
+width = img.width
+height = img.height
+xwidth = width // 1000
+yheight = height // 1000
+if xwidth > yheight:
+  scale = xwidth
+else:
+  scale = yheight
+if scale != 0:
+  img = img.resize( (width // scale, height // scale) )
+
+pixels = img.getdata()
+new_pixels = []
+
+for p in pixels:
+new_pixels.append(p)
+
+location = 0
+
+while location < len(new_pixels):
+new_pixels[location] = (update_r, update_g, update_b)
+
+location = location + 1
+final_image = Image.new("RGB", img.size)
+final_image.putdata(new_pixels)
+return final_image
+
+
+
+Code snippet used from Stackoverflow URL:
+https://stackoverflow.com/questions/2498875/how-to-invert-colors-of-image-with-pil-python-imaging
+Code used: x,y,z = abs(x-255), abs(y-255), abs(z-255)
+
+
+Images used in program from: Pixels
