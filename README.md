@@ -6,11 +6,19 @@ and the PIL module. Pixels from an uploaded image within the folder are
 returned and stored into a list. Pixel values (RBG) are then manipulated
 to create a filter. 
 
+ - - - - - - - - - - - - - - - - -
+ 
 Modules used:
+
 Pillow (PIL) (link: https://github.com/python-pillow/Pillow)
+
 Termcolor
+
 Time
+
 OS
+
+ - - - - - - - - - - - - - - - - -
 
 How to use:
 
@@ -26,6 +34,8 @@ c: subjectIMG2.jpg
 
   
 3.) Run program, and follow the simple steps prompted
+
+ - - - - - - - - - - - - - - - - -
 
 Most of the instructions as to how the code work/documentation can be found inside
 the .py files (most important being main.py)
