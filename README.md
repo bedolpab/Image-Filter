@@ -1,16 +1,14 @@
 # Image-Filter
 Image filter using pixel manipulation and Pillow (PIL) in Python
  - - - - - - - - - - - - - - - - -
-Image-Filter is a program that filters uploaded images using pixel manipulation
-and the PIL module. Pixels from an uploaded image within the folder are
-returned and stored into a list. Pixel values (RGB) are then manipulated
-to create a filter. 
+A Python console application that uses pixel manipulation using the PIL library to apply predefined filters to an image. Partnered high school project where I programmed the entirety of the application’s image filters.
+ 
 
  - - - - - - - - - - - - - - - - -
  
 Modules used:
 
-Pillow (PIL) (link: https://github.com/python-pillow/Pillow)
+PIL Library
 
 Termcolor
 
