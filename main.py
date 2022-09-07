@@ -7,7 +7,7 @@ import filter as filter
 start = datetime.now()
 
 # Import image
-print("Please enter the image file (e.g. image.png")
+print("Please enter the image file (e.g. image.png)")
 
 # Open image
 while True:
@@ -20,17 +20,17 @@ while True:
     except NameError:
         print(f"Name '{path}' is not found")
 
-print(type(img))
 # Current fitlering: grayscale conversion
 img = filter.filter(img=img,
                     rgb_r=144,
                     rgb_g=234,
                     rgb_b=122)
 
-end = datetime.now()
 
 # Save image
 img.save("new_image.jpg")
+
+end = datetime.now()
 
 # Output
 print(f"Image {img} created")
